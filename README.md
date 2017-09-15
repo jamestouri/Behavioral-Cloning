@@ -27,7 +27,9 @@ These are three images that were at the same location of the car.  Adjusting the
 
 At first I was going through the NVIDIA Blog for self driving, following the convolutional neural and their image resizing.  Overall it didn't quite work for me, however I did convert BGR to YUV as they did in their blog.  
 
-I resized my images to 40 x 80 x 3 and cropped the image by taking off 18 from top and 7 from bottom. 
+I resized my images to 40 x 80 x 3.  The image looks exactly the same in terms of shape as the one above, except smaller. 
+
+Also Cropped the image by taking off 18 from top and 7 from bottom.
 
 
 ## Augmenting the Image
@@ -59,6 +61,10 @@ Number of Epochs: 5
 Images Generated: 18000
 
 Also used Kera's Fit Generator to speed up training
+
+## The finishing strategy
+
+The main reason of the success was the training and learning how to do it correctly.  Although I stayed in the lines at all times, I swerved throughout the whole track a few times, which ultimately had the car learn enough for success in driving around the track. 
 
 ## Recap
 Very fun project. My favorite so far
