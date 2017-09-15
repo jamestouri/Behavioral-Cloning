@@ -53,7 +53,9 @@ I also rotated all the images to mirror the original.
 
 ## Training Set
 Optimizer: Adam
-Number of Epochs 5
+
+Number of Epochs: 5
+
 Images Generated: 18000
 
 Also used Kera's Fit Generator to speed up training
