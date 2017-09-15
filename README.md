@@ -1,9 +1,25 @@
 # Behaviorial Cloning Project
 
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+This project contains the data set and code written in Python for a autonomous driving simulator.  The car was to be trained manually then trained through a deep learning neural network. [Here is the video of the finished project](https://youtu.be/WUrMyoc62Ro)
+
+## The Data Set
+
+
+Udacity provided a data set to start with.  It was a good starting but had little recovery data, which I spent most of the time training the car for. 
+
+Here is an image from the Data Set:
+
+![](https://github.com/jamestouri/Behavioral-Cloning/blob/master/img1.png)
+
+The images are 160 x 320 x 3
+
+## Measurement for Steering
+
+There were 3 cameras on the car at all times.  I adjusted the measurement on the right side more than the one on the left due to the car constantly moving to the rig
+
 
 Overview
----
+
 This repository contains starting files for the Behavioral Cloning Project.
 
 In this project, you will use what you've learned about deep neural networks and convolutional neural networks to clone driving behavior. You will train, validate and test a model using Keras. The model will output a steering angle to an autonomous vehicle.
