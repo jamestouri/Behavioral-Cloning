@@ -1,7 +1,6 @@
 # Behaviorial Cloning Project
 
-This project contains the data set and code written in Python for a autonomous driving simulator.  The car was to be trained manually then trained through a deep learning neural network. [Here is the video of the finished project](https://youtu.be/WUrMyoc62Ro)
-
+This project contains the data set and code written in Python for a autonomous driving simulator.  The car was to be trained manually then trained through a deep learning neural network. 
 ## The Data Set
 
 
